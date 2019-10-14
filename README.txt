@@ -1,4 +1,4 @@
-Hallgarth WebGl Model- Simon Ellershaw
+Hallgarth WebGl Model
 
 To run open ‘HallgarthModel.html’ in a browser, such as FireFox, that allows locally stored textures to be loaded. 
 All keyboard controls are displayed on the HTML page.
@@ -17,3 +17,5 @@ camera angle. The camera can also be rotated according to polar geometry about t
 The lighting has two sources. The sun’s light (directional) has circular path about the x-axis and its intensity 
 and the model’s background colour vary with the sun’s position. At night 2 street lights (point) turn on and can 
 be manually toggled on and off.
+
+Link to the reference images used to create the model is included at the bottom of the HTML page.
