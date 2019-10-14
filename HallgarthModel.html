@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hallgarth Model</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="600" height="350">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <h3>Controls</h3>
+    <ul>
+      <li>Arrow keys: Move camera</li>
+      <li>P: Toggle between 3rd and 1st person perspective</li>
+      <li>WASD: Rotate camera (1st person perspective only)</li>
+      <li>Z and X: Zoom in and out (3rd person perspective only)</li>
+      <li>R: Reset camera</li>
+      <li>B: Toggle bins open and closed</li>
+      <li>G: Toggle garage doors open and closed</li>
+      <li>O: Toggle front doors open and closed</li>
+      <li>L: Toggle street lights on and off</li>
+      <li>T: Move time of day forward</li>
+    </ul>
+    <p>Click <a href="https://www.google.com/maps/@54.7711501,-1.5681946,3a,75y,303.5h,92.56t/data=!3m6!1e1!3m4!1sHpgGjd072g5BvZhWtScHbw!2e0!7i13312!8i6656">here</a> to see model location in Google Street View</p>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="./HallgarthModel.js"></script>
+  </body>
+</html>
